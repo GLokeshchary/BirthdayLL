@@ -1,0 +1,28 @@
+.message-container{
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    background-color: rebeccapurple;
+}
+
+.message-container .name{
+    display: flex;
+    justify-content: center;
+    animation: animate 5s ease-in-out forwards infinite;
+}
+.message-container .birthdayphoto img{
+    height: 150px;
+    width: 100%;
+}
+@keyframes animate {
+    0%{
+        letter-spacing: -15px;
+    }
+    50%{
+        letter-spacing: 7px;
+    }
+    100%{
+        letter-spacing: 2px;
+    }
+    
+}

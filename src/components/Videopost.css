@@ -1,0 +1,9 @@
+.video-container{
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.video1{
+    display: flex;
+    justify-content: center;
+}

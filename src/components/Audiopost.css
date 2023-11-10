@@ -1,0 +1,10 @@
+.audio-header{
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.audiolist{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
