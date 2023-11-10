@@ -3,7 +3,6 @@ import Audiopost from "./components/Audiopost";
 import Birthdaymessage from "./components/Birthdaymessage";
 import Videopost from "./components/Videopost";
 import Videopostt from "./components/Videopostt";
-
 import Photoalbum from "./components/photoalbum";
 function App() {
   document.title = "Happy Birthday";
