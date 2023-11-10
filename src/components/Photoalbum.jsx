@@ -7,7 +7,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "./Photoalbum.css";
 import { Autoplay, FreeMode, Pagination } from "swiper/modules";
-const photoalbum = ({ album, header, slideperview }) => {
+const Photoalbum = ({ album, header, slideperview }) => {
   const imagesList = ["p1", "p2", "p3", "p4", "p5"];
   return (
     <div>
@@ -36,4 +36,4 @@ const photoalbum = ({ album, header, slideperview }) => {
   );
 };
 
-export default photoalbum;
+export default Photoalbum;
